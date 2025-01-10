@@ -1,0 +1,26 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 10rem;
+
+  & .introducao-info {
+    background-image: url("/img/detalhe.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    max-width: 503px;
+    max-height: 400px;
+    padding: 2rem;
+
+    & h1 {
+      font-size: 4.5rem;
+    }
+
+    & .introducao-localizacao {
+      margin: 1rem 0;
+    }
+  }
+}
